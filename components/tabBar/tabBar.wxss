@@ -1,0 +1,33 @@
+/* components/tabBar/tabBar.wxss */
+@import "../../static/font/iconfont.wxss";
+.container {
+    height: 98rpx;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 -0.07729rem 0.38647rem 0 rgba(16,15,15,.03);
+}
+.container .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .item .icon {
+    margin-bottom: 4rpx;
+    font-size: 40rpx;
+}
+.container .item text {
+    font-family: PingFangSC-Regular;
+    font-size: 20rpx;
+    color: #100F0F;
+    letter-spacing: 0;
+}
+.container > .active.item > text {
+    color: red;
+}

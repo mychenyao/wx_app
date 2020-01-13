@@ -1,0 +1,47 @@
+/* components/product/product.wxss */
+.product_list {
+    width: 100%;
+    margin-top: 20rpx;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.product_img {
+    width: 100%;
+    height: 360rpx;
+}
+.product_content {
+    padding: 0 40rpx;
+}
+.product_name {
+    font-family: PingFangSC-Medium;
+    font-size: 28rpx;
+    display: block;
+    color: #100F0F;
+    lighting-color: 50rpx;
+}
+.describe {
+    ont-family: Gilroy-Medium;
+    font-size: 20rpx;
+    color: #333;
+    width: 100%;
+    display: block;
+}
+.price {
+    font-family: Gilroy-Medium;
+    font-size: 40rpx;
+    color: #100F0F;
+}
+.price_container {
+    margin-top: 10rpx;
+}
+.symbol {
+    font-family: Gilroy-Medium;
+    font-size: 24rpx;
+    color: #100F0F;
+    margin-right: 5rpx;
+}

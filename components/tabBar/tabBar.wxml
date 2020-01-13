@@ -1,0 +1,7 @@
+<!--components/tabBar/tabBar.wxml-->
+<view class="container">
+    <View class="item {{index === activeItem && 'active'}}" wx:for="{{tabBarList}}" wx:key="{{item.className}}" bindtap="routerTo" data-url="{{item.url}}">
+        <text class="icon iconfont {{item.className}}"></text>
+        <text>{{item.name}}</text>
+    </View>
+</view>

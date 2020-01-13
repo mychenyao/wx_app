@@ -1,0 +1,37 @@
+{
+  "id": "1609106",
+  "name": "angsi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "877688",
+      "name": "icon_classification",
+      "font_class": "iconclassification",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "4195509",
+      "name": "icon-mine",
+      "font_class": "icon-mine",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "10102909",
+      "name": "icon_shoppingcar",
+      "font_class": "icon_shoppingcar",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11924355",
+      "name": "icon_homeIndex",
+      "font_class": "index",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<!--pages/my/my.wxml-->
+<view>
+    <view>
+        <text>489584958409</text>
+    </view>
+    <tab-bar></tab-bar>
+</view>

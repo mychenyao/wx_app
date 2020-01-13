@@ -1,0 +1,14 @@
+<!--components/product/product.wxml-->
+<view class="product_list">
+    <view class="product_item" wx:for="{{productData.rows}}" wx:key="{{item.categoryId}}">
+        <image class="product_img" src="{{item.picUrl}}"></image>
+        <view class="product_content">
+            <text class="describe">{{item.skuSubTitle}}</text>
+            <text class="product_name">{{item.skuTitle}}</text>
+            <view class="price_container">
+                <text class="symbol">¥</text>
+                <text class="price">{{item.skuPrice}}</text>
+            </view>
+        </view>
+    </view>
+</view>

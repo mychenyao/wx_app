@@ -1,0 +1,42 @@
+<!--pages/index/home/home.wxml-->
+<view class="container">
+
+    <scroll-view scroll-y="{{true}}" class="scroll_view">
+        <view class="scroll_container">
+            <view class="banner">
+                <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+                        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                    <block wx:for="{{valueList}}" wx:key="*this">
+                        <swiper-item>
+                            <view class="swiper-item">
+                                <image mode="widthFix" src="{{item.value}}"></image>
+                            </view>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </view>
+            <view class="menus">
+                <view class="menus_item">
+                    <image src="http://oss.angsi.com/frontend-picture/1577755301508.png"></image>
+                    <text>本周热门</text>
+                </view>
+                <view class="menus_item">
+                    <image src="http://oss.angsi.com/frontend-picture/1577755337237.png"></image>
+                    <text>礼物专区</text>
+                </view>
+                <view class="menus_item">
+                    <image src="http://oss.angsi.com/frontend-picture/1577754882453.png"></image>
+                    <text>企业定制</text>
+                </view>
+            </view>
+            <view class="product">
+                <view class="product_title">
+                    <text>推荐商品</text>
+                </view>
+                <product productData="{{productData}}"></product>
+            </view>
+        </view>
+    </scroll-view>
+
+    <tab-bar></tab-bar>
+</view>

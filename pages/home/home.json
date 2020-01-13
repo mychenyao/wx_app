@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tab-bar": "../components/tabBar/tabBar",
+    "product": "../components/product/product"
+  },
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "ANGSI昂司"
+}

@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<view>
+    <view>
+        <text>jkfljkfdfdldjlfd</text>
+    </view>
+    <tab-bar></tab-bar>
+</view>
