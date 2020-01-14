@@ -1,7 +1,14 @@
 <!--pages/category/category.wxml-->
 <view>
-    <view>
-        <text>就分开了的肌肤抵抗力</text>
+    <view class="main">
+        <view class="left_menus">
+            <view class="item"></view>
+            <view class="item"></view>
+            <view class="item"></view>
+        </view>
+        <view class="right_content">
+
+        </view>
     </view>
     <tab-bar></tab-bar>
 </view>
