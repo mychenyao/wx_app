@@ -7,7 +7,9 @@
             <view class="item"></view>
         </view>
         <view class="right_content">
+            <view>
 
+            </view>
         </view>
     </view>
     <tab-bar></tab-bar>
