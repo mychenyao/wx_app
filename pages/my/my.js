@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    d: 'fjdkfjdkfjdk'
+    d: 'fjdkfjdkfjd奋斗奋斗奋斗k'
   },
 
   /**
